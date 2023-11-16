@@ -36,11 +36,11 @@ def ask_user_a_question():
     Returns:
     - user_input (str): The user's input.
     """
-    user_input = input("What would you like to know about AI? (enter exit if you want to exit)")
+    user_input = input("What would you like to know about AI? (enter exit if you want to exit): ")
     return user_input
 
 
-def find_similarities(questions_list:list, user_input:str) -> tuple:
+def find_similarities(questions_list:list, user_input:str) -> list:
     """
     Uses keywords to find similarities. 
     Returns up to 3 closest hits.
@@ -55,11 +55,16 @@ def find_similarities(questions_list:list, user_input:str) -> tuple:
     similar_questions = []
 
     for question_object in questions_list:
-        keywords_found_amount = 0
+
+        keywords_found = []
+
         for keyword in question_object['keywords']:
             if keyword in user_input:
-                keywords_found_amount += 1
-        if keywords_found_amount != 0:
+                keywords_found.append(keyword)
+
+
+        keywords_found_amount = len(keywords_found)
+        if not keywords_found:
             similar_questions.append({'keywords_amount':keywords_found_amount, 'question':question_object})
     
     similar_questions.sort(key=lambda similarity: similarity['keywords_amount'])
@@ -73,8 +78,8 @@ def show_similar_questions(similarities:list):
     Args:
     - similarities (list): A list of dictionaries containing information about similar questions.
     """
-    if len(similarities) == 0:
-        print("There is no question similar to the one you gave")
+    if not similarities:
+        print("Sorry, we do not know of a question similar to the one you gave")
     else:
         print("Here are the questions with similarities with the one you gave")
 
@@ -118,22 +123,28 @@ def show_an_answer(question_object:dict):
     output_message += f"The answer :\n{question_object['answer']}\n"
     print(output_message)
 
+def user_wants_to_continue(user_input:str)-> bool:
+    """ Checks user_input:str and returns False if it says 'exit', else True. """
+
+    if user_input == "exit":
+        return False
+    return True
+
 
 def main():
     questions_list = get_questions(FILE_PATH)
-    if questions_list != None:  # if the program fail to open/read the file we stop it
+    if questions_list:  # if the program fail to open/read the file we stop it
 
         user_input = ask_user_a_question()
-        user_want_to_continue = user_input != "exit"
-        while user_want_to_continue:
+
+        while user_wants_to_continue(user_input):
             similarities = find_similarities(questions_list, user_input)
             show_similar_questions(similarities)
-            if len(similarities) != 0:
+            if not similarities:
                 user_choice = ask_user_a_choice(len(similarities))
                 show_an_answer(similarities[user_choice - 1]['question'])
 
             user_input = ask_user_a_question()
-            user_want_to_continue = user_input != "exit"
 
     print("The program is ending")
 
