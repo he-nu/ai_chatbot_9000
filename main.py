@@ -64,7 +64,7 @@ def find_similarities(questions_list:list, user_input:str) -> list:
 
 
         keywords_found_amount = len(keywords_found)
-        if not keywords_found:
+        if keywords_found:
             similar_questions.append({'keywords_amount':keywords_found_amount, 'question':question_object})
     
     similar_questions.sort(key=lambda similarity: similarity['keywords_amount'])
@@ -146,7 +146,7 @@ def main():
 
             user_input = ask_user_a_question()
 
-    print("The program is ending")
+    exit("The program is ending")
 
 
 if __name__ == "__main__":
