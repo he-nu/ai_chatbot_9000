@@ -4,8 +4,6 @@ import re
 
 FILE_PATH = 'data.json'
 
-# KEYWORDS:list = ...
-
 def get_questions(file_path:str)-> dict:
     """
     This function takes a file path as input and returns a list of dictionaries containing the questions
@@ -59,7 +57,7 @@ def find_similarities(questions_list:list, user_input:str) -> list:
         keywords_found = []
 
         for keyword in question_object['keywords']:
-            if keyword in user_input:
+            if keyword.lower() in user_input.lower():
                 keywords_found.append(keyword)
 
 
@@ -120,7 +118,7 @@ def show_an_answer(question_object:dict):
     - question_object (dict): A dictionary containing a 'question' and 'answer' key.
     """
     output_message = f"The question is : {question_object['question']}\n"
-    output_message += f"The answer :\n{question_object['answer']}\n"
+    output_message += f"The answer :\n\n{question_object['answer']}\n"
     print(output_message)
 
 def user_wants_to_continue(user_input:str)-> bool:
@@ -140,7 +138,7 @@ def main():
         while user_wants_to_continue(user_input):
             similarities = find_similarities(questions_list, user_input)
             show_similar_questions(similarities)
-            if not similarities:
+            if similarities:
                 user_choice = ask_user_a_choice(len(similarities))
                 show_an_answer(similarities[user_choice - 1]['question'])
 

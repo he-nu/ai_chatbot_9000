@@ -1,8 +1,34 @@
 [{
-    "question":"question",
-    "answer":"answer",
-    "keywords": ["ispum", "hipsum", "llorem"]
-}]
+    "question":"What is AI?",
+    "answer":"AI, or artificial intelligence, refers to the development of computer systems capable of performing tasks that typically require human intelligence, such as learning, reasoning, problem-solving, and perception.",
+    "keywords": ["AI", "artificial intelligence", "computer systems", "tasks", "human intelligence", "learning", "reasoning", "problem-solving", "perception"]
+},
+{
+    "question":"What is machine learning?",
+    "answer":"Machine learning is a field of artificial intelligence that focuses on the development of algorithms allowing computer systems to learn from data and improve their performance over time without explicit programming.",
+    "keywords":  ["Machine Learning", "artificial intelligence", "algorithms", "learn", "data", "performance", "explicit programming"]
+},
+{
+    "question":"What is supervised learning?",
+    "answer":"Supervised learning is a type of machine learning where the algorithm is trained on a labeled dataset, with input-output pairs, to make predictions or decisions based on new, unseen data.",
+    "keywords":  ["Supervised Learning", "machine learning", "algorithm", "labeled dataset", "input-output pairs", "predictions", "decisions", "unseen data"]
+},
+{
+    "question":"What is unsupervised learning?",
+    "answer":"Unsupervised learning is a machine learning paradigm where the algorithm is trained on unlabeled data, seeking to discover patterns, structures, or relationships within the data without predefined outputs.",
+    "keywords": ["Unsupervised Learning", "machine learning", "algorithm", "unlabeled data", "discover", "patterns", "structures", "relationships", "predefined outputs"]
+},
+{
+    "question":"What is deep learning?",
+    "answer": "Deep learning is a subset of machine learning that involves neural networks with multiple layers (deep neural networks), allowing the model to automatically learn hierarchical representations of data for more complex tasks.",
+    "keywords": ["Deep Learning", "machine learning", "neural networks", "multiple layers", "deep neural networks", "learn", "hierarchical representations", "complex tasks"]
+},
+{
+    "question":"What is a neural network?",
+    "answer": "A neural network is a computational model inspired by the structure and functioning of the human brain, consisting of interconnected nodes (neurons) organized in layers that process information and are used in machine learning for various tasks.",
+    "keywords": ["Neural Network", "computational model", "human brain", "nodes", "neurons", "layers", "process information", "machine learning", "various tasks"]
+}
+]
 
 
 
