@@ -19,8 +19,11 @@ def get_questions(file_path:str)-> dict:
         file = open(file_path, 'rt')
         data = json.load(file)
         file.close()
-    except OSError:
+    except FileExistsError:
         print("Something went wrong while trying to read the file with the questions")
+        data = None
+    except FileNotFoundError:
+        print("The file with the questions and answers can't be found")
         data = None
     return data
 
@@ -52,12 +55,14 @@ def find_similarities(questions_list:list, user_input:str) -> list:
     """
     similar_questions = []
 
+    lower_user_input = user_input.lower()
+
     for question_object in questions_list:
 
         keywords_found = []
 
         for keyword in question_object['keywords']:
-            if keyword.lower() in user_input.lower():
+            if keyword.lower() in lower_user_input:
                 keywords_found.append(keyword)
 
 
