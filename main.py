@@ -109,8 +109,10 @@ def ask_user_a_choice(max_number:int) -> int:
             choice = int(user_input)
             if choice > 0 and choice <= max_number:
                 break
+            else :
+                user_input = input(f"Wrong number, please enter a number between 1 and {max_number} : ")
         except ValueError:
-            user_input = input(f"Wrong input, please enter a number between 0 and {max_number}")
+            user_input = input(f"Wrong input, please enter a number between 1 and {max_number} : ")
 
     return choice
 

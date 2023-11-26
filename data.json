@@ -1,157 +1,150 @@
 [{
     "question":"What is AI?",
     "answer":"AI, or artificial intelligence, refers to the development of computer systems capable of performing tasks that typically require human intelligence, such as learning, reasoning, problem-solving, and perception.",
-    "keywords": ["AI", "artificial intelligence", "computer systems", "tasks", "human intelligence", "learning", "reasoning", "problem-solving", "perception"]
+    "keywords": ["AI", "artificial intelligence", "artificial", "intelligence", "computer systems", "tasks", "human intelligence", "learning", "reasoning", "problem-solving", "perception"]
 },
 {
     "question":"What is machine learning?",
     "answer":"Machine learning is a field of artificial intelligence that focuses on the development of algorithms allowing computer systems to learn from data and improve their performance over time without explicit programming.",
-    "keywords":  ["Machine Learning", "artificial intelligence", "algorithms", "learn", "data", "performance", "explicit programming"]
+    "keywords":  ["Machine Learning", "ml", "machine", "learning", "artificial intelligence", "ia", "algorithms", "learn", "data", "performance", "explicit programming"]
 },
 {
     "question":"What is supervised learning?",
     "answer":"Supervised learning is a type of machine learning where the algorithm is trained on a labeled dataset, with input-output pairs, to make predictions or decisions based on new, unseen data.",
-    "keywords":  ["Supervised Learning", "machine learning", "algorithm", "labeled dataset", "input-output pairs", "predictions", "decisions", "unseen data"]
+    "keywords":  ["Supervised Learning", "machine learning", "machine", "learning", "algorithm", "labeled dataset", "input-output pairs", "predictions", "decisions", "unseen data"]
 },
 {
     "question":"What is unsupervised learning?",
     "answer":"Unsupervised learning is a machine learning paradigm where the algorithm is trained on unlabeled data, seeking to discover patterns, structures, or relationships within the data without predefined outputs.",
-    "keywords": ["Unsupervised Learning", "machine learning", "algorithm", "unlabeled data", "discover", "patterns", "structures", "relationships", "predefined outputs"]
+    "keywords": ["Unsupervised Learning", "machine learning", "machine", "learning", "algorithm", "unlabeled data", "discover", "patterns", "structures", "relationships", "predefined outputs", "unsupervised"]
 },
 {
     "question":"What is deep learning?",
     "answer": "Deep learning is a subset of machine learning that involves neural networks with multiple layers (deep neural networks), allowing the model to automatically learn hierarchical representations of data for more complex tasks.",
-    "keywords": ["Deep Learning", "machine learning", "neural networks", "multiple layers", "deep neural networks", "learn", "hierarchical representations", "complex tasks"]
+    "keywords": ["Deep Learning", "machine learning", "machine", "learning", "neural networks", "nn", "multiple layers", "deep", "deep neural networks", "layer", "learn", "hierarchical representations", "complex tasks"]
 },
 {
     "question":"What is a neural network?",
     "answer": "A neural network is a computational model inspired by the structure and functioning of the human brain, consisting of interconnected nodes (neurons) organized in layers that process information and are used in machine learning for various tasks.",
-    "keywords": ["Neural Network", "computational model", "human brain", "nodes", "neurons", "layers", "process information", "machine learning", "various tasks"]
+    "keywords": ["Neural Network", "computational model", "nn", "human brain", "structure", "nodes", "network", "neurons", "brain", "layers", "process information", "machine learning", "layer", "various tasks"]
 },
 {
     "question": "What is the difference between classification and regression in machine learning?",
     "answer": "Classification involves predicting a category or label, while regression predicts a continuous quantity. For example, classifying emails as spam or not is a classification task, while predicting house prices is a regression task.",
-    "keywords": ["Classification", "Regression", "machine learning", "predicting", "category", "label", "continuous quantity", "spam", "emails", "house prices"]
+    "keywords": ["Classification", "Regression", "class", "type", "different", "difference", "machine learning", "predicting", "category", "label", "continuous quantity", "spam", "emails", "house prices"]
 },
 {
     "question": "What is the curse of dimensionality in machine learning?",
     "answer": "The curse of dimensionality refers to the challenges and increased complexity that arise when working with high-dimensional data. It can lead to sparsity, increased computational requirements, and difficulties in model training.",
-    "keywords": ["Curse of Dimensionality", "machine learning", "challenges", "complexity", "high-dimensional data", "sparsity", "computational requirements", "model training"]
+    "keywords": ["Curse of Dimensionality", "dimentionality", "challenge", "curse", "machine learning", "challenges", "complexity", "high-dimensional", "data", "sparsity", "computational requirements", "model", "training"]
 },
 {
     "question": "What is ensemble learning in machine learning?",
     "answer": "Ensemble learning combines predictions from multiple machine learning models to improve overall performance. Common techniques include bagging (Bootstrap Aggregating) and boosting, which aim to reduce overfitting and increase accuracy.",
-    "keywords": ["Ensemble Learning", "machine learning", "predictions", "multiple models", "performance", "bagging", "Bootstrap Aggregating", "boosting", "overfitting", "accuracy"]
+    "keywords": ["Ensemble Learning", "ensemble", "machine learning", "ml", "predictions", "multiple models", "improve", "performance", "bagging", "technique", "Bootstrap Aggregating", "bootstrap", "boosting", "overfitting", "accuracy"]
 },
 {
     "question": "Can you explain the concept of bias-variance tradeoff in machine learning?",
     "answer": "The bias-variance tradeoff is a key consideration in machine learning. High bias can lead to underfitting, while high variance can lead to overfitting. Balancing these factors is essential for creating models that generalize well to new data.",
-    "keywords": ["Bias-Variance Tradeoff", "machine learning", "bias", "variance", "underfitting", "overfitting", "balancing", "models", "generalize", "new data"]
+    "keywords": ["Bias-Variance Tradeoff", "tradeoff", "machine learning", "ml", "bias", "variance", "underfitting", "overfitting", "balancing", "model", "generalize", "generalization", "new data", "data"]
 },
 {
     "question": "What is the role of activation functions in neural networks?",
     "answer": "Activation functions introduce non-linearity to neural networks, enabling them to learn complex patterns. Common activation functions include ReLU (Rectified Linear Unit) and sigmoid, each serving different purposes in network architectures.",
-    "keywords": ["Activation Functions", "neural networks", "non-linearity", "learn", "complex patterns", "ReLU", "Rectified Linear Unit", "sigmoid", "network architectures"]
+    "keywords": ["Activation Functions", "activation", "function", "neural networks", "nn", "non-linearity", "learn", "complex patterns", "complex", "patern", "ReLU", "Rectified Linear Unit", "sigmoid", "network architectures"]
 },
 {
     "question": "How does the K-nearest neighbors (KNN) algorithm work?",
     "answer": "K-nearest neighbors is a simple yet effective algorithm for classification and regression. It classifies a data point based on the majority class of its K nearest neighbors in feature space, where K is a user-defined parameter.",
-    "keywords": ["K-nearest Neighbors", "KNN", "algorithm", "classification", "regression", "data point", "majority class", "feature space", "user-defined parameter"]
+    "keywords": ["K-nearest Neighbors", "k", "nearest", "KNN", "algorithm", "classification", "class", "regression", "data point", "majority class", "feature space", "user-defined parameter", "parameter"]
 },
 {
     "question": "What is the difference between a shallow and a deep neural network?",
     "answer": "A shallow neural network has only a few hidden layers, while a deep neural network has multiple hidden layers. Deep networks are capable of learning hierarchical representations, making them suitable for complex tasks.",
-    "keywords": ["Shallow Neural Network", "Deep Neural Network", "hidden layers", "learning", "hierarchical representations", "complex tasks"]
+    "keywords": ["Shallow Neural Network", "shallow", "nn", "neural network", "Deep Neural Network", "deep", "hidden layers", "hidden", "layer", "learning", "hierarchical representations", "complex tasks"]
 },
 {
     "question": "What is the role of a loss function in training a machine learning model?",
     "answer": "A loss function quantifies the difference between the predicted output and the actual target. During training, the goal is to minimize this loss, guiding the model to make more accurate predictions on new, unseen data.",
-    "keywords": ["Loss Function", "training", "machine learning model", "predicted output", "actual target", "minimize", "accurate predictions", "unseen data"]
+    "keywords": ["Loss Function", "loss", "function", "training", "machine learning model", "machine learning", "ml", "predicted output", "target", "minimize", "accurate predictions", "unseen data", "prediction"]
 },
 {
     "question": "What are generative adversarial networks (GANs) in the context of deep learning?",
     "answer": "Generative adversarial networks consist of a generator and a discriminator that are trained simultaneously through adversarial training. GANs are used to generate realistic data, such as images, by capturing the underlying distribution of the training data.",
-    "keywords": ["Generative Adversarial Networks", "GANs", "deep learning", "generator", "discriminator", "adversarial training", "realistic data", "images", "underlying distribution", "training data"]
+    "keywords": ["Generative Adversarial Networks", "generative", "adversarial", "network", "GANs", "deep learning", "generator", "discriminator", "adversarial training", "generate", "data", "realistic data", "images", "underlying distribution", "distribution", "training data"]
 },
 {
     "question": "How does dropout regularization work in neural networks?",
     "answer": "Dropout is a regularization technique where randomly selected neurons are ignored during training. This helps prevent overfitting by promoting the robustness and independence of different neurons within the network.",
-    "keywords": ["Dropout Regularization", "neural networks", "regularization technique", "randomly selected neurons", "training", "overfitting", "robustness", "independence"]
+    "keywords": ["Dropout Regularization", "dropout", "neural networks", "nn", "regularization technique", "randomly selected neurons", "random", "training", "overfitting", "robustness", "independence", "network"]
 },
 {
     "question": "What is transferable knowledge in the context of transfer learning?",
     "answer": "Transferable knowledge refers to the information and patterns learned by a model on one task that can be applied to a related task during transfer learning. This facilitates the adaptation of knowledge from one domain to another.",
-    "keywords": ["Transferable Knowledge", "transfer learning", "model", "task", "information", "patterns", "related task", "adaptation", "knowledge", "domain"]
+    "keywords": ["Transferable Knowledge", "learning", "transfer", "transfer learning", "model", "task", "information", "patterns", "model", "related task", "adaptation", "knowledge", "domain", "different"]
 },
 {
     "question": "What is the role of optimization algorithms in training machine learning models?",
     "answer": "Optimization algorithms are used to minimize the loss function during training and update the model's parameters. Popular optimization algorithms include gradient descent and its variants, which aim to find the optimal set of parameters.",
-    "keywords": ["Optimization Algorithms", "training", "machine learning models", "minimize", "loss function", "update", "model's parameters", "gradient descent", "variants", "optimal set of parameters"]
+    "keywords": ["Optimization Algorithms", "optimization", "better result", "optimize", "algorithm", "training", "machine learning models", "model", "minimize", "function", "loss function", "update", "model's parameters", "gradient", "descent", "variants", "optimal set of parameters"]
 },
 {
     "question": "How does Principal Component Analysis (PCA) contribute to dimensionality reduction?",
     "answer": "Principal Component Analysis is a technique used for dimensionality reduction. It transforms the data into a new coordinate system, emphasizing the most important features and reducing the dataset's dimensionality while preserving its variance.",
-    "keywords": ["Principal Component Analysis", "PCA", "dimensionality reduction", "data", "coordinate system", "important features", "dataset", "variance"]
+    "keywords": ["Principal Component Analysis", "analysis", "component", "PCA", "dimensionality", "reduction", "transform", "data", "coordinate system", "coordinate", "important features", "dataset", "variance"]
 },
 {
     "question": "What is the role of a confusion matrix in evaluating classification models?",
     "answer": "A confusion matrix is a table that summarizes the performance of a classification model. It shows the true positive, true negative, false positive, and false negative values, providing insights into the model's accuracy and error types.",
-    "keywords": ["Confusion Matrix", "evaluating", "classification models", "table", "performance", "true positive", "true negative", "false positive", "false negative", "accuracy", "error types"]
+    "keywords": ["Confusion Matrix", "confusion", "matrix", "evaluating", "classification models", "class", "model", "table", "performance", "true positive", "positive", "negative", "true", "false", "true negative", "false positive", "false negative", "accuracy", "error types"]
 },
 {
     "question": "What is the concept of bias in machine learning models?",
     "answer": "Bias in machine learning models refers to the error introduced by approximating a real-world problem, making assumptions, and oversimplifying the underlying structure. High bias can lead to underfitting.",
-    "keywords": ["Bias", "machine learning models", "error", "approximating", "real-world problem", "assumptions", "oversimplifying", "underfitting"]
+    "keywords": ["Bias", "machine learning models", "machine", "learning", "model", "error", "approximating", "aproximation", "real-world", "problem", "assumptions", "oversimplifying", "underfitting"]
 },
 {
     "question": "How does the term 'feature importance' relate to decision trees?",
     "answer": "In decision trees, feature importance measures the contribution of each feature to the model's predictive performance. Features that split the data effectively are assigned higher importance.",
-    "keywords": ["Feature Importance", "decision trees", "contribution", "predictive performance", "split", "data", "higher importance"]
+    "keywords": ["Feature Importance", "feature", "importance", "decision trees", "decision", "trees", "contribution", "features", "predictive performance", "perfomance", "split", "data", "higher importance"]
 },
 {
     "question": "What is the role of a learning rate in gradient descent optimization?",
     "answer": "The learning rate in gradient descent determines the size of the steps taken during optimization. A well-chosen learning rate ensures convergence to the optimal solution without overshooting or taking excessively small steps.",
-    "keywords": ["Learning Rate", "gradient descent", "optimization", "size of steps", "well-chosen", "convergence", "optimal solution", "overshooting", "small steps"]
+    "keywords": ["Learning Rate", "rate", "learning", "gradient descent", "gradient", "optimization", "optimize", "size of steps", "well-chosen", "convergence", "optimal solution", "solution", "overshooting", "small steps"]
 },
 {
     "question": "What are some common applications of natural language processing (NLP) in real-world scenarios?",
     "answer": "NLP applications include sentiment analysis, language translation, chatbots, text summarization, and speech recognition. These technologies enhance human-computer interaction and automate language-related tasks.",
-    "keywords": ["Natural Language Processing", "NLP", "applications", "sentiment analysis", "language translation", "chatbots", "text summarization", "speech recognition", "human-computer interaction", "automate", "language-related tasks"]
+    "keywords": ["Natural Language Processing", "language", "alexa", "voice", "speak", "google home", "NLP", "applications", "sentiment analysis", "language translation", "translation", "chatbots", "text summarization", "speech recognition", "recognize", "human-computer interaction", "automate", "language-related", "language", "write", "text"]
 },
 {
     "question": "How does the concept of 'early stopping' prevent overfitting in machine learning models?",
     "answer": "Early stopping involves halting the training process when the model's performance on a validation set starts to degrade. This helps prevent overfitting by avoiding unnecessary complexity and capturing noise.",
-    "keywords": ["Early Stopping", "overfitting", "machine learning models", "training process", "performance", "validation set", "degrade", "unnecessary complexity", "capturing noise"]
+    "keywords": ["Early Stopping", "stopping", "early", "stop", "overfitting", "machine learning models", "machine larning", "model", "machine", "learning", "training process", "performance", "validation set", "degrade", "unnecessary complexity", "noise"]
 },
 {
     "question": "What is the difference between a parametric and a non-parametric machine learning model?",
     "answer": "Parametric models make assumptions about the underlying data distribution and have a fixed number of parameters. Non-parametric models do not make explicit assumptions about the data distribution and can adapt to more complex patterns.",
-    "keywords": ["Parametric Model", "Non-parametric Model", "machine learning model", "assumptions", "underlying data distribution", "fixed number of parameters", "non-parametric", "adapt", "complex patterns"]
+    "keywords": ["Parametric Model", "parametric", "model", "Non-parametric Model", "machine learning model", "machine", "learning", "assumptions", "underlying data distribution", "fixed number of parameters", "parameters", "non-parametric", "adapt", "data", "distribution", "data distribution", "complex patterns", "complex", "patern"]
 },
 {
     "question": "How does a recurrent neural network (RNN) differ from a traditional feedforward neural network?",
     "answer": "RNNs have connections that form cycles, allowing them to retain information from previous time steps. This makes them suitable for sequential data, such as time series or natural language, where context is essential.",
-    "keywords": ["Recurrent Neural Network", "RNN", "feedforward neural network", "connections", "cycles", "retain information", "time steps", "sequential data", "time series", "natural language", "context"]
+    "keywords": ["Recurrent Neural Network", "neural network", "recurrent", "nn", "RNN", "traditional", "feedforward", "forward", "feedforward neural network", "connections", "cycles", "retain information", "time steps", "sequential data", "time series", "natural language", "context"]
 },
 {
     "question": "What is the concept of regularization in machine learning, and how does it prevent overfitting?",
     "answer": "Regularization is a technique that penalizes complex models to prevent overfitting. It adds a term to the loss function, discouraging the model from fitting the training data too closely and improving generalization to new data.",
-    "keywords": ["Regularization", "machine learning", "concept", "prevent overfitting", "penalizes", "complex models", "loss function", "training data", "generalization", "new data"]
+    "keywords": ["Regularization", "machine learning", "machine", "learning", "ml", "concept", "prevent overfitting", "overfitting", "penalizes", "complex models", "model", "loss function", "loss", "training data", "generalization", "new data", "data"]
 },
 {
     "question": "How does the Naive Bayes algorithm work in text classification?",
     "answer": "Naive Bayes is based on Bayes' theorem and assumes independence between features. In text classification, it's often used for spam filtering and sentiment analysis by considering the probabilities of word occurrences.",
-    "keywords": ["Naive Bayes Algorithm", "text classification", "Bayes' theorem", "independence", "features", "spam filtering", "sentiment analysis", "probabilities", "word occurrences"]
+    "keywords": ["Naive Bayes Algorithm", "bayes", "naive", "algorithm", "text classification", "text", "classification", "class", "Bayes' theorem", "theorem", "independence", "features", "spam filtering", "filter", "spam", "sentiment analysis", "sentiment", "emotion", "analysis", "probabilities", "probability", "word occurrences"]
 },
 {
     "question": "What is the role of a cost function in training a neural network?",
     "answer": "A cost function, also known as a loss function, quantifies the difference between the predicted output and the actual target. During training, the goal is to minimize this cost function to improve the accuracy of the model.",
-    "keywords": ["Cost Function", "neural network", "NN", "nn", "training", "predicted output", "actual target", "minimize", "accuracy"]
-}
-]
-
-
-
-
-
-
+    "keywords": ["Cost Function", "cost", "function", "loss function", "loss", "neural network", "nn", "training", "difference", "predicted output", "predicted", "prediction", "output", "target", "minimize", "accuracy", "model", "improve"]
+}]
